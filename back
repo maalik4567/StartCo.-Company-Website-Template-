@@ -1,0 +1,130 @@
+<div class="container">
+      <div class="row">
+        <strong>Typograghy:</strong>
+        <!-- Typograghy: -->
+        <p class="grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+          inventore?
+        </p>
+        <span class="nav-item grey">Lorem, ipsum.</span>
+        <span class="nav-heading grey">Lorem, ipsum.</span>
+        <span class="slider-title grey">Lorem, ipsum.</span>
+      </div>
+      <div class="row">
+        <strong>Colors:</strong>
+        <!-- Colors: -->
+        <div class="gradient box"></div>
+        <div class="blue box"></div>
+        <div class="cyan box"></div>
+        <div class="green box"></div>
+        <div class="dgreen box"></div>
+        <div class="lgreen box"></div>
+      </div>
+      <div class="row gx-3">
+        <strong>Images:</strong>
+        <!-- Images: -->
+        <div class="col">
+          <div class="gradient">
+            <div class="img-box">
+              <img src="images/smiley.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gradient">
+            <div class="social-box">
+              <a href="">
+                <img src="images/fb.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    strong {
+        padding: 10px;
+        padding-left: 0px !important;
+        border-bottom: 2px solid #adadad;
+        margin-bottom: 20px;
+        color: #1d1d1d;
+      }
+      
+      /*Colors*/
+      
+      .box {
+        width: 90px;
+        height: 40px;
+        margin: 0px 10px;
+      }
+      
+      .gradient {
+        background: linear-gradient(to right, #1d753a, #4bd9d2);
+      }
+      
+      .blue {
+        background-color: #5678fe;
+      }
+      
+      .cyan {
+        background-color: #4bd9d2;
+      }
+      
+      .green {
+        background-color: #1d753a;
+      }
+      
+      .dgreen {
+        background-color: #05501e;
+      }
+      
+      .lgreen {
+        background-color: #00ed4f;
+      }
+      
+      .grey {
+        color: grey;
+      }
+      
+      /*Typography*/
+      
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      
+      .nav-heading {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
+        text-transform: uppercase;
+      }
+      
+      .nav-item {
+        padding: 10px 30px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      
+      .slider-title {
+        font-weight: bold;
+        margin-bottom: 25px;
+        font-size: 2.5rem;
+      }
+      
+      /*Images*/
+      
+      .img-box {
+        width: 45px;
+        display: inline-block;
+        margin: 10px 10px;
+      }
+      
+      .social-box {
+        width: 35px;
+        display: inline-block;
+        margin: 10px 10px;
+      }
